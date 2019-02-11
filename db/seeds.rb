@@ -17,8 +17,8 @@ event_2=Event.create(day_id:3,name:"Flight",time:"05:00 AM",location: "DCA",comp
 note_1 = Note.create(day_id:1,name:"Hello",body:"Hello World")
 note_2 = Note.create(day_id:2,name:"bla",body:"Bla bla bla")
 
-quote_1= Quote.create(day_id:1,quote:"I love code")
-quote_2= Quote.create(day_id:1,quote:"At least it's Friday")
+quote_1= Quote.create(day_id:1,phrase:"I love code")
+quote_2= Quote.create(day_id:1,phrase:"At least it's Friday")
 
 
 task_1=Task.create(day_id:1,name:"Labs",completed:true,category:"urgent",image:"https://cdn3.vectorstock.com/i/1000x1000/07/97/chemist-laboratory-logo-vector-21270797.jpg")

@@ -1,4 +1,4 @@
 class QuoteSerializer < ActiveModel::Serializer
-  attributes :id, :quote, :day_id
+  attributes :id, :phrase, :day_id
   belongs_to :day
 end
