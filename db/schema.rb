@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(version: 2019_02_11_151059) do
   create_table "days", force: :cascade do |t|
     t.string "date"
     t.integer "user_id"
+    t.integer "happiness"
+    t.integer "water"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -25,6 +25,6 @@ class DaysController < ApplicationController
 
  private
  def day_params
-   params.require(:day).permit(:date,:user_id)
+   params.require(:day).permit(:date,:user_id,:water,:happiness)
  end
 end
