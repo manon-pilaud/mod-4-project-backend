@@ -1,24 +1,7 @@
-# README
+Digital Bullet Journal Backend: A web application for personal organization.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application employs a Ruby on Rails backend API and a React frontend with Semantic UI styling components. The calendar component was inspired by this fantastic blog post and code along: https://blog.flowandform.agency/create-a-custom-calendar-in-react-3df1bfd0b728. The user's mood and water tracker utilized this rating component: https://github.com/voronianski/react-star-rating-component.
 
-Things you may want to cover:
+link to Bullet Journal Frontend: https://github.com/manon-pilaud/mod-4-project-frontend
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This personal organization web application is inspired by the popular bullet journal method. This method gained popularity due to the simplicity and effectiveness of keeping everything in one place. Therefore, this application has tried to replicate this by keeping a simple, decluttered layout, with a diverse set of input fields for the user to keep track of anything they need to maintain an organized life. It has a calendar page that contains all user events. Upon clicking on a day on the calendar the user is taken to that days show page. From this page, the user can add, edit and delete notes, track their mood and water intake for the day, add and complete tasks and create, edit and delete events. These events are reflected on the monthly calendar page. Days are created in the database when the user navigates to its show page to avoid unnecessary use of memory.
